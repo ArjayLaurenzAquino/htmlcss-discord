@@ -8,10 +8,7 @@ body {
     font-family: sans-serif;
 }
 
-/* ids */
-#navbar-color {
-    background-color: gold;
-}
+
 
 
 /* rules */
@@ -97,7 +94,7 @@ body {
 /* header-main-footer */
 header {
     height: 600px;
-    background-color: lightblue;
+    background-color: rgb(6, 102, 212);
     padding: 1em 0 5px 0;
 }
 
@@ -144,7 +141,7 @@ header {
     background-color: aquamarine;
     padding: 1em 0 1em;
 }
-.button {
+.button2 {
     background-color: darksalmon;
 }
 .logo-1 {
@@ -156,4 +153,16 @@ header {
 
 .footer-padding {
     padding-top: 2em;
+}
+.navbar{
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.button {
+
+    padding: 1em;
+    border-radius: 25px;
+    border-color: white;
 }

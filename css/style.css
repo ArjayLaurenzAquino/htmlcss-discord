@@ -29,7 +29,7 @@ body {
 .boxed-1 {
     width: 900px;
     height: 400px;
-   
+
 }
 
 .mega-box {
@@ -41,6 +41,7 @@ body {
 
 
 }
+
 .bg-jumbo {
     background-image: url(../img/jumbo.jpeg);
     background-repeat: no-repeat;
@@ -56,13 +57,17 @@ body {
 .large-column {
     height: 400px;
     width: 60%;
-    background-color: rgb(0, 136, 255);
 }
 
 .small-column {
+    padding: 0 100px;
     height: 400px;
     width: 40%;
-    background-color: pink;
+
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .section-grey {
@@ -70,11 +75,13 @@ body {
     background-color: lightgray;
 }
 
+.align {
+    text-align: center;
+}
 
 .big-column {
-    height: 800px;
-    width: 1200px;
-    background-color: green;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-black-1 {
@@ -136,7 +143,7 @@ header {
     text-align: center;
     padding: 1em;
     display: flex;
-    
+
     flex-direction: column;
 
 }
@@ -149,16 +156,20 @@ header {
 .row {
     padding: 1em 0;
 }
+
 .bg-aqua {
     background-color: aquamarine;
     padding: 1em 0 1em;
 }
+
 .button2 {
     background-color: darksalmon;
 }
+
 .logo-1 {
     background-color: darksalmon;
 }
+
 .space {
     justify-content: space-between;
 }
@@ -166,29 +177,51 @@ header {
 .footer-padding {
     padding-top: 2em;
 }
-.navbar{
+
+.navbar {
     color: white;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
 }
-button {
 
+button {
+    border-style: hidden;
     padding: 1em;
     border-radius: 25px;
 }
-.w-button{
+
+.w-button {
     background-color: white;
     border-color: white;
 }
-.b-button{
+
+.b-button {
     color: white;
     background-color: black;
     border-color: black;
 }
+
 h1 {
     padding-bottom: 1em;
 }
+
 .b-padding {
     padding-top: 1em;
+}
+
+.big-h2 {
+    padding: 1em 0;
+}
+
+.blue-but {
+    color: white;
+    background-color: rgba(63, 63, 224, 0.841);
+    border-color: rgba(63, 63, 224, 0.841);
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.big-pad {
+    padding: 1em 10%;
 }

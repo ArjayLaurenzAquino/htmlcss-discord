@@ -29,16 +29,23 @@ body {
 .boxed-1 {
     width: 900px;
     height: 400px;
-    background-color: magenta;
+   
 }
 
 .mega-box {
-    margin: 20px auto 0;
-    background-color: blue;
     height: 500px;
+    margin: 1em auto 0;
     display: flex;
     align-items: center;
     justify-content: center;
+
+
+}
+.bg-jumbo {
+    background-image: url(../img/jumbo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .section-white {
@@ -124,9 +131,14 @@ header {
 }
 
 .header-content {
+    color: white;
+    font-size: larger;
+    text-align: center;
     padding: 1em;
     display: flex;
-    align-self: center;
+    
+    flex-direction: column;
+
 }
 
 .left-column,
@@ -160,9 +172,23 @@ header {
     flex-wrap: wrap;
     align-items: center;
 }
-.button {
+button {
 
     padding: 1em;
     border-radius: 25px;
+}
+.w-button{
+    background-color: white;
     border-color: white;
+}
+.b-button{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+h1 {
+    padding-bottom: 1em;
+}
+.b-padding {
+    padding-top: 1em;
 }

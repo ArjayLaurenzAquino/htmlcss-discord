@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* ids */
+#navbar-color {
+    background-color: gold;
+}
+
+
+/* rules */
+.flex-container {
+    display: flex;
+
+}
+
+.boxed {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dashed {
+    border: dashed 2px grey;
+}
+
+.boxed-1 {
+    width: 900px;
+    height: 400px;
+    background-color: magenta;
+}
+
+.mega-box {
+    margin: 20px auto 0;
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-white {
+
+    background-color: white;
+}
+
+.large-column {
+    height: 400px;
+    width: 60%;
+    background-color: rgb(0, 136, 255);
+}
+
+.small-column {
+    height: 400px;
+    width: 40%;
+    background-color: pink;
+}
+
+.section-grey {
+
+    background-color: lightgray;
+}
+
+
+.big-column {
+    height: 800px;
+    width: 1200px;
+    background-color: green;
+}
+
+.section-black-1 {
+    background-color: black;
+    border-bottom: solid 2px lightgray;
+}
+
+.left-column {
+    height: 500px;
+    width: 30%;
+    background-color: coral;
+}
+
+.right-column {
+    height: 500px;
+    width: 70%;
+    background-color: aquamarine;
+}
+
+.inside-column {
+    width: 25%;
+}
+
+/* header-main-footer */
+header {
+    height: 600px;
+    background-color: lightblue;
+    padding: 1em 0 5px 0;
+}
+
+/* other */
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.link {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo,
+.link,
+.login {
+    padding: 1em;
+}
+
+.header-content {
+    padding: 1em;
+    display: flex;
+    align-self: center;
+}
+
+.left-column,
+.right-column {
+    margin: 1em 0 2em;
+}
+
+.row {
+    padding: 1em 0;
+}
+.bg-aqua {
+    background-color: aquamarine;
+    padding: 1em 0 1em;
+}
+.button {
+    background-color: darksalmon;
+}
+.logo-1 {
+    background-color: darksalmon;
+}
+.space {
+    justify-content: space-between;
+}
+
+.footer-padding {
+    padding-top: 2em;
+}

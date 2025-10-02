@@ -85,20 +85,20 @@ body {
 }
 
 .section-black-1 {
-    background-color: black;
+    background-color: rgb(40, 38, 38);
     border-bottom: solid 2px lightgray;
 }
 
 .left-column {
-    height: 500px;
+    height: 400px;
     width: 30%;
-    background-color: coral;
+
 }
 
 .right-column {
-    height: 500px;
+    height: 400px;
     width: 70%;
-    background-color: aquamarine;
+
 }
 
 .inside-column {
@@ -157,18 +157,12 @@ header {
     padding: 1em 0;
 }
 
-.bg-aqua {
-    background-color: aquamarine;
+.bg-padding {
     padding: 1em 0 1em;
 }
 
-.button2 {
-    background-color: darksalmon;
-}
 
-.logo-1 {
-    background-color: darksalmon;
-}
+
 
 .space {
     justify-content: space-between;
@@ -224,4 +218,24 @@ h1 {
 
 .big-pad {
     padding: 1em 10%;
+}
+h3 {
+    color: rgb(92, 92, 252);
+    font-size: larger;
+    padding: 1em;
+}
+.space-foot-l {
+    padding: 1em 0;
+
+}
+.w-font{
+ color: white;
+    padding: 0 1em;
+}
+.b-font {
+    padding: 2em 1em 0;
+}
+ul {
+    color: rgb(92, 92, 252);
+    list-style: none;
 }

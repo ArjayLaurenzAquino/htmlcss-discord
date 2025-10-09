@@ -72,7 +72,7 @@ body {
 
 .section-grey {
 
-    background-color: lightgray;
+    background-color: gainsboro;
 }
 
 .align {
@@ -241,4 +241,31 @@ ul {
 }
 .footer-bborder {
         border-bottom: solid 2px lightgray;
+}
+.main-end {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3);
+}
+
+.large-column > img {
+    height: 100%;
+}
+.wave {
+    height: 50px;
+    background-image: url(../img/wave.svg);
+    opacity: 0.14;
+}
+.wave-2 {
+    rotate: 180deg;
+    height: 50px;
+    background-image: url(../img/wave.svg);
+    opacity: 0.14;
+}
+.stars {
+    width: 100%;
+    height: 25px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
 }
